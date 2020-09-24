@@ -12,6 +12,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   CrudMethods crudMethods = CrudMethods();
 
+
   Stream blogsStream;
 
   Widget BlogList() {
